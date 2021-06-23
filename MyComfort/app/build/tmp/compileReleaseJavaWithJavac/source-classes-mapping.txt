@@ -1,0 +1,33 @@
+com/example/mycomfort/Material.java
+ com.example.mycomfort.Material
+com/example/mycomfort/PracticeList.java
+ com.example.mycomfort.PracticeList
+ com.example.mycomfort.PracticeList$1
+ com.example.mycomfort.PracticeList$2
+com/example/mycomfort/ArticleText.java
+ com.example.mycomfort.ArticleText
+ com.example.mycomfort.ArticleText$1
+com/example/mycomfort/TheoryList.java
+ com.example.mycomfort.TheoryList
+ com.example.mycomfort.TheoryList$1
+ com.example.mycomfort.TheoryList$2
+com/example/mycomfort/PracticeText.java
+ com.example.mycomfort.PracticeText
+com/example/mycomfort/RorschachTest.java
+ com.example.mycomfort.RorschachTest
+ com.example.mycomfort.RorschachTest$1
+ com.example.mycomfort.RorschachTest$2
+ com.example.mycomfort.RorschachTest$3
+com/example/mycomfort/MaterialAdapter.java
+ com.example.mycomfort.MaterialAdapter
+ com.example.mycomfort.MaterialAdapter$ViewHolderItem
+com/example/mycomfort/BuildConfig.java
+ com.example.mycomfort.BuildConfig
+com/example/mycomfort/PsyServices.java
+ com.example.mycomfort.PsyServices
+com/example/mycomfort/Rorschach.java
+ com.example.mycomfort.Rorschach
+com/example/mycomfort/Books.java
+ com.example.mycomfort.Books
+com/example/mycomfort/MainWindow.java
+ com.example.mycomfort.MainWindow

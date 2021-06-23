@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mycomfort"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:5:5-25:19
+19        android:allowBackup="true"
+19-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\529042315385d8413ce2368d9dfa18df\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/icon"
+22-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:7:9-36
+23        android:label="@string/app_name"
+23-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/icon"
+24-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:9:9-41
+25        android:supportsRtl="true"
+25-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MyComfort" >
+27-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:11:9-47
+28        <activity android:name="com.example.mycomfort.activities.RorschachTest" />
+28-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:12:9-71
+28-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:12:19-59
+29        <activity android:name="com.example.mycomfort.activities.Books" />
+29-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:13:9-54
+29-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:13:19-51
+30        <activity android:name="com.example.mycomfort.activities.PsyServices" />
+30-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:14:9-60
+30-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:14:19-57
+31        <activity android:name="com.example.mycomfort.activities.PracticeText" />
+31-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:15:9-61
+31-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:15:19-58
+32        <activity android:name="com.example.mycomfort.activities.ArticleText" />
+32-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:16:9-60
+32-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:16:19-57
+33        <activity android:name="com.example.mycomfort.activities.PracticeList" />
+33-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:17:9-61
+33-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:17:19-58
+34        <activity android:name="com.example.mycomfort.activities.TheoryList" />
+34-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:18:9-59
+34-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:18:19-56
+35        <activity android:name="com.example.mycomfort.activities.MainWindow" >
+35-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:19:9-24:20
+35-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:19:19-56
+36            <intent-filter>
+36-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:20:13-23:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:22:17-77
+39-->C:\Users\madfl\AndroidStudioProjects\MyComfort\app\src\main\AndroidManifest.xml:22:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\300cc15402e70146f861a9769dc01d49\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\574fc5f83475404fcc4af47c7d305e85\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+51                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+51-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\574fc5f83475404fcc4af47c7d305e85\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\574fc5f83475404fcc4af47c7d305e85\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+53            <meta-data
+53-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\515d8f483ad9d9e5c272cec75b1a7810\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+54-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\515d8f483ad9d9e5c272cec75b1a7810\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\515d8f483ad9d9e5c272cec75b1a7810\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\98323a2611e85ac64d5cc440ceb1d53c\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+57                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+57-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\98323a2611e85ac64d5cc440ceb1d53c\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\98323a2611e85ac64d5cc440ceb1d53c\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+59        </service>
+60
+61        <receiver
+61-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+62            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+62-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+63            android:enabled="true"
+63-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+64            android:exported="false" >
+64-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+65        </receiver>
+66
+67        <service
+67-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+68            android:name="com.google.android.gms.measurement.AppMeasurementService"
+68-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+69            android:enabled="true"
+69-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+70            android:exported="false" />
+70-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+71        <service
+71-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+72            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+72-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+73            android:enabled="true"
+73-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+75            android:permission="android.permission.BIND_JOB_SERVICE" />
+75-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\e9b032cd6efe8860a2b31960410d1d3f\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+79            android:authorities="com.example.mycomfort.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:20.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a975c482550dfc3ac79b3b0c4eabcd05\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\6566bf6bba82d5c176cad157c4843ee9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\6566bf6bba82d5c176cad157c4843ee9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\6566bf6bba82d5c176cad157c4843ee9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\6566bf6bba82d5c176cad157c4843ee9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\madfl\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+92    </application>
+93
+94</manifest>
