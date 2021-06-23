@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My comfort</string>
+    <string name="back">Назад</string>
+    <string name="theory">Теория</string>
+    <string name="practice">Практика</string>
+    <string name="helpList">Службы психологической помощи</string>
+    <string name="books">Дополнительная литература</string>
+    <string name="firstBook">«Почему он это делает? Кто такой абьюзер и как ему противостоять» Бэнкрофт Ланди</string>
+    <string name="secondBook">«Техники когнитивной психотерапии» Роберт Лихи</string>
+    <string name="thirdBook">«Лекарство от нервов» Роберт Лихи</string>
+    <string name="forthBook">«Свобода от тревоги. Справься с тревогой, пока она не расправилась с тобой» Роберт Лихи</string>
+    <string name="fifthBook">«Тайная опора: привязанность в жизни ребенка» Петрановская Людмила Владимировна</string>
+    <string name="sixthBook">«Страх близости» Илсе Санд</string>
+    <string name="seventhBook">«Компас эмоций» Илсе Санд</string>
+    <string name="eighthBook">«Сила спокойствия» Райан Холидей</string>
+    <string name="ninthBook">«Искусство ясно мыслить» Рольф Добелли</string>
+    <string name="psyServiceName1">Служба экстренной психологической помощи МЧС\nТелефон: +7 (495) 989–50-50\nВремя работы: Круглосуточно</string>
+    <string name="psyService2">Телефонная психологическая консультация «Ярославна»\nТелефон: +7 (495) 120–16-60\nВремя работы: С 10:00 до 21:00 по будням</string>
+    <string name="psyService3">Телефон доверия «Линия надежды»\nТелефон: 8 800 201–76-10\nВремя работы: С 10:00 до 17:00 по будням</string>
+    <string name="psyService4">Консультации студентов магистерской программы «Системная семейная психотерапия» НИУ «ВШЭ»</string>
+    <string name="psyService5">Psysovet</string>
+    <string name="psyService6">Мырядом2020</string>
+    <string name="psyService7">b17.ru</string>
+    <string name="psyService8">Благотворительная психологическая служба «Помогая другим — помогаешь себе»</string>
+    <string name="psyService9">Насилию.нет\nТелефон: +7 495 916-30-00\nВремя работы: С 10:00 до 18:30 по будням</string>
+    <string name="cardnumb">Карточка №</string>
+    <string name="rorschachTest">Посмотрите на изображение.\nЧто вы в первую очередь видите на нём? Старайтесь отвечать, не задумываясь.</string>
+    <string name="findAnswer">Узнать ответ</string>
+    <string name="nextCard">Следующая карточка</string>
+    <string name="author">Автор интерпретации теста: психолог Анастасия Бутенко</string>
+</resources>
