@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4FFF4"
+    tools:context=".activities.Books">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/why_is_he_doing_it"
+                android:drawablePadding="17dp"
+                android:text="@string/firstBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/firstBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/secondBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/cognitive_psychotherapy"
+                android:drawablePadding="17dp"
+                android:text="@string/secondBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/secondBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/thirdBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/nervous"
+                android:drawablePadding="17dp"
+                android:text="@string/thirdBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thirdBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/forthBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/free_anxiety"
+                android:drawablePadding="17dp"
+                android:text="@string/forthBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/forthBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/fifthBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/secret_support"
+                android:drawablePadding="17dp"
+                android:text="@string/fifthBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fifthBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/sixthBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/closeness_fear"
+                android:drawablePadding="17dp"
+                android:text="@string/sixthBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sixthBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/seventhBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/emotions"
+                android:drawablePadding="17dp"
+                android:text="@string/seventhBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/seventhBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/eighthBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/calm_force"
+                android:drawablePadding="17dp"
+                android:text="@string/eighthBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eighthBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/ninthBookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/clear_mind"
+                android:drawablePadding="17dp"
+                android:text="@string/ninthBook"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ninthBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hyphenationFrequency="full"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
