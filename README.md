@@ -5,4 +5,4 @@ There's a 2 modules: theory and practice. Theory contains articles, practice - t
 
 Additional information: free psychological services and additional literature for reading.
 
-Level API Android SDK - 16.
+Level API Android SDK - 16. Language is java.
